@@ -1,0 +1,137 @@
+header
+{
+  text-align: center;
+  font: normal 30pt Arial;
+  color: white;
+}
+
+p
+{
+  color: yellow;
+}
+
+
+.insert
+{
+  width: 450px;
+  padding: 10px;
+  border: none;
+  border: 1px solid black;
+  outline: none;
+  background: white;
+  color: black;
+  font: bolder 10pt Arial;
+  margin-bottom: 30px;
+}
+
+.add
+{
+  border: none;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  padding: 10px;
+  font: normal 10pt Arial;
+  border-radius: 5px;
+}
+
+.add:hover
+{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.del
+{
+  border: none;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  padding: 10px;
+  font: normal 10pt Arial;
+}
+
+.del:hover
+{
+  cursor: pointer;
+  transform: scale(1.1);
+  background: white;
+  color: black;
+  transition: 0.3s;
+}
+
+#edit
+{
+  border: none;
+  border: 1px solid black;
+  margin-left: -10%;
+  background: black;
+  color: white;
+  padding: 10px;
+  font: normal 10pt Arial;
+}
+
+#edit:hover
+{
+  cursor: pointer;
+  transform: scale(1.1);
+  background: white;
+  color: black;
+  transition: 0.3s;
+}
+
+.del
+{
+  position: absolute;
+  top: 0;
+  right: -40px;
+  display: none;
+}
+
+#edit
+{
+  position: absolute;
+  top: 0;
+  right: -17%;
+  display: none;
+}
+
+.elemento:hover
+{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.elemento:hover .del
+{
+  display: block;
+}
+
+.elemento:hover #edit
+{
+  display: block;
+}
+
+.elemento
+{
+  width: 450px;
+  padding: 10px;
+  color: white;
+  font: bolder 10pt Arial;
+  margin-bottom: 30px;
+  margin: auto;
+  border: 1px solid black;
+  background: #0a6397;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.insertdiv
+{
+  text-align: center;
+}
+
+body
+{
+  background: #003554;
+}

@@ -1,0 +1,67 @@
+body
+{
+  /*background: #638ecb;*/
+  background: #8aaee0;
+}
+
+.entrada input
+{
+  width: 50%;
+  height: 40px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1em;
+  padding: 0 53px 0 5px;
+}
+
+.usuario
+{
+  margin-bottom: 30px;
+}
+
+.senha
+{
+  margin-bottom: 30px;
+}
+
+.senha2
+{
+  margin-bottom: 30px;
+}
+
+.botao
+{
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 3px;
+  font: normal 13pt Arial;
+  outline: none;
+}
+
+.botao:hover
+{
+  cursor: pointer;
+  box-shadow: 1px 1px 1px;
+}
+
+.registrar p a
+{
+  text-decoration: none;
+  font-weight: 600;
+  color: blue;
+}
+
+section
+{
+  width: 400px;
+  height: 450px;
+  background: white;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
